@@ -1,0 +1,114 @@
+img{
+    float: right;
+    height:"10px";
+    width:"300px";
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.wrapper{
+    width: 100%;
+    }
+
+.profile_heading{
+    height: 125px;
+    background-color: #00296b;
+    font-size:20px;
+    color: #ffffff;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 20px;
+
+
+}   
+
+/* Apply styles to buttons within the .nav div */
+
+nav{
+    padding-top:30px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav a{
+    padding: 10px;
+}
+
+.nav button {
+    /* Add your custom styles here */
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    
+  }
+  
+  .nav button:hover {
+    background-color: #fdc500;
+    color: #000000;
+  }
+
+.collapsible {
+    background-color: #3a61a4;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 20px;
+    transition: display 0.5s ease;
+
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #fdc500;
+    color: #000000;
+    border-radius: 20px;
+
+
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #ffe876d4;
+    
+    border-radius: 20px;
+  }
+
+  ul {
+    list-style-type: circle; 
+  }
+
+  ul {
+    list-style: none; /* Remove default list styles */
+  }
+
+  ul li::before {
+    content: "➤"; /* Use any character you prefer for the bullet point, e.g., ●, ■, ▪ */
+    color: #000000; /* Set the color for the filled circle */
+    margin-right: 8px; /* Add some space between the bullet and the list item */
+  }
+
+  .about, .education, .projects, .skills, .work  {
+    padding: 10px;
+   
+  }
+
+  
+
+
+
+  
